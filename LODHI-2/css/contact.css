@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    /* display: inline-block; */
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 45%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4; */
+  }
+  .main{
+    background-position: 0cqb;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .first-div{
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 10px;
+  }
+  .second-div{
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 10px;
+  }
+  .profile-card {
+    display: inline-block;
+    margin: 10px;
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .job-title {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 15px;
+  }
+
+  .profile-info {
+    
+    font-size: 14px;
+    color: #555;
+  }
+  button{
+    margin-top: 20px;
+    width:100px;
+    height: 30px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #59fc61;
+}
+
+  .submit{
+    margin-top: 20px;
+    width:382px;
+    height: 30px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  a{
+    font-size: x-small;
+    text-decoration: none;
+  }
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
